@@ -1,0 +1,21 @@
+# Создайте файл database.ini из копии этого файла и замените значения переменных реальными данными
+
+[postgresql]
+host=your_db_host_here # обычно = localhost
+user=your_db_user_here # обычно = postgres
+password=your_db_key_here
+port=your_db_port_here # обычно = 5432
+
+[postgresql_hh]
+host=your_db_host_here # обычно = localhost
+user=your_db_user_here # обычно = postgres
+dbname=hh
+password=your_db_key_here
+port=your_db_port_here # обычно = 5432
+
+[postgresql_test]
+host=your_db_host_here # обычно = localhost
+user=your_db_user_here # обычно = postgres
+dbname=test
+password=your_db_key_here
+port=your_db_port_here # обычно = 5432
